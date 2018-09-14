@@ -43,7 +43,7 @@ score = 0;
 
 function randomQuestion() {
     // Math.random()*3 because we have only 3 questions
-    question = questionArray[Math.floor(Math.random()*3)];
+    question = questionArray[Math.floor(Math.random()*questionArray.length)];
 }
 
 // function to make a question
